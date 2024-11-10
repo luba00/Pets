@@ -1,0 +1,97 @@
+.login {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 250px;
+}
+
+.login_title {
+}
+
+.login_form {
+  text-align: center;
+  background-color: orange;
+  padding: 35px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.login_form-label {
+  text-align: start;
+  align-items: center;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login_form-input {
+  margin-bottom: 5px;
+  background-color: orange;
+  border: none;
+  border-bottom: 1px solid #888888;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.login_form-inner {
+  /*display: flex;*/
+  /*text-align: center;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  margin-bottom: 20px;
+  column-gap: 20px;
+}
+
+.login_form-btn {
+  text-align: center;
+  justify-content: center;
+  padding: 10px 80px;
+  border: none;
+  background-color: orange;
+
+  border-radius: 20px;
+  border: 1px solid #888888;
+  transition: top 0.5s ease;
+}
+
+.login_form-btn:hover {
+  cursor: pointer;
+}
+
+.login_form-btn:active {
+  position: relative;
+  top: 5px;
+}
+
+.login_form-link {
+  color: black;
+  transition: color 0.1s linear;
+}
+
+.login_form-link:hover {
+  border-bottom: 1px solid #888888;
+  color: #888888;
+}
+
+.login_form-forgotpassword {
+  text-align: start;
+  margin-bottom: 30px;
+  margin-left: 5px;
+}
+
+.login_form-register {
+  margin-left: 5px;
+  color: black;
+  transition: color 0.1s linear;
+}
+
+.login_form-register:hover {
+  border-bottom: 1px solid #888888;
+  color: #888888;
+}
+.login_register-inner {
+  text-align: start;
+}

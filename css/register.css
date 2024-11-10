@@ -1,0 +1,79 @@
+.register {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.register_form {
+    text-align: center;
+    background-color: orange;
+    padding: 35px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.register_form-label{
+    text-align: start;
+    align-items: center;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.register_form-input{
+    margin-bottom: 5px;
+    background-color: orange;
+    border: none;
+    border-bottom: 1px solid #888888;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.register_form-inner{
+    /*display: flex;*/
+    /*text-align: center;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    margin-bottom: 20px;
+    column-gap: 20px;
+}
+
+.register_form-btn{
+    text-align: center;
+    justify-content: center;
+    padding: 10px 80px;
+    border: none;
+    background-color: orange;
+
+    border-radius: 20px;
+    border: 1px solid #888888;
+    transition: top 0.5s ease;
+}
+
+.register_form-btn:hover {
+    cursor: pointer;
+}
+
+.register_form-btn:active {
+    position: relative;
+    top: 5px;
+}
+
+.register_private-inner{
+    display: flex;
+    column-gap: 8px;
+    padding: 5px 0px;
+    margin-bottom: 15px;
+}
+
+.register_form-checkbox{
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+
+
